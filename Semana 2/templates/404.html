@@ -1,0 +1,18 @@
+{% extends 'base2.html' %} 
+{% block error404 %}
+<section class="flex items-center h-full p-16 dark:bg-coolGray-900 dark:text-coolGray-100">
+	<div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+		<div class="max-w-md text-center">
+			<h2 class="mb-8 font-extrabold text-9xl dark:text-coolGray-600">
+				<span class="sr-only">Error </span>404 
+			</h2>
+			<p class="mt-4 mb-8"> User not found.</p>
+			<button  class="text-white bg-indigo-400 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <a href="{{url_for('index')}}">Back to homepage</a>
+            </button>
+		</div>
+	</div>
+</section>
+{% endblock %}
+
+

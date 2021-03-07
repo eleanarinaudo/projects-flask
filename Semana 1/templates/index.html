@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="img/icon-github.svg" sizes="any" type="image/svg+xml" />
+    <title>GitHub Profile Page</title>
+
+
+</head>
+<body class="container mx-auto px-2 bg-gray-900 text-white font-sans flex flex-col">
+
+<!--Busqueda-->
+<section class=" border border-gray-500 bg-gray-800 rounded-md p-4 mt-6 mb-2 mx-auto w-3/4 flex justify-evenly items-center flex-col lg:flex-row">
+    <div class="my-auto">
+        <label class="text-lg p-4">User: </label>
+        <input type="text" placeholder="Username..." class="px-4 border-gray-500 border-box rounded bg-gray-900 placeholder-opacity-100 py-1 ">
+        <button class="bg-green-500 border-box rounded px-4 py-1 mx-8 ">Search User</button>
+    </div>  
+</section>
+<!--Fin Busqueda-->
+
+<!--Main-->
+ <main >
+    <section class=" border border-gray-500 bg-gray-800 rounded-md p-10 mt-6 mb-2 mx-auto w-3/4 flex justify-evenly items-center flex-col lg:flex-row">
+        <figure><img src="/img/profile.jpeg"  alt="Usuario" class="rounded-full h-40 w-40 flex items-center justify-center"></figure>
+        <div class="p-2 mt-2 w-full lg:w-3/5 lg:mt-6 lg:p-1" >
+            <p class="text-lg">Username:<label class="p-4">Nami</label> </p>
+            <p class="text-lg">Biografia: <label class="p-4 text-justify">Persona desinhibida, temperamental y temerosa ante ciertos peligros.</label></p> 
+            <p class="text-lg">Website:
+                <a href="https://onepiece.fandom.com/es/wiki/Nami/Personalidad_y_relaciones" class="p-4 text-green-400">nami.com</a> 
+            </p>
+            <p class="text-lg">Repositories:<label class="p-4"> Namizo </label></p>
+        </div>
+    </section>
+</main>
+<!--Fin Main-->
+
+<!--404-->
+<section class=" border border-gray-500 bg-gray-800 rounded-md p-4 mt-6 mb-2 mx-auto w-3/4 flex justify-evenly items-center flex-col lg:flex-row">
+    <div class="my-auto">
+        <p class="text-3xl font-black text-center">❌ 404 not found! 😿</p>
+        <p class="text-sm pt-4">I don't found info. Do you want to search again? ⬆️</p>
+    </div>  
+</section>
+<!--Fin 404-->
+
+<!--Footer-->
+<footer class="text-gray-300 bg-gray-900 body-font">
+    <div class="container px-5 py-8 flex items-center sm:flex-row flex-col">
+        <p class="text-sm text-gray-300 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 GitHub Find Profile —
+        <a href="https://twitter.com/eleanarinaudo" class="text-purple-400 ml-1" rel="noopener noreferrer" target="_blank">@eleanarinaudo</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="ml-3 text-gray-400" href="https://www.twitter.com/eleanarnd" target="_blank">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+        </a>
+        <a class="ml-3 text-gray-400" href="https://instagram.com/eleana.tar.gz" target="_blank">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="https://www.linkedin.com/in/eleana-rinaudo/" target="_blank">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+        </a>
+    </span>
+    </div>
+</footer>
+<!--Fin Footer-->
+</body>
+</html>
